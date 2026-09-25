@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Classements par discipline - Saison 2034-2035</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f1f1f1;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+      color: #003366;
+    }
+
+    header {
+      margin-bottom: 30px;
+    }
+
+    #logo {
+      width: 140px;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      font-size: 26px;
+      margin: 0;
+    }
+
+    p.slogan {
+      margin-bottom: 30px;
+      font-size: 16px;
+      color: #555;
+    }
+
+    .discipline-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      margin-bottom: 40px;
+    }
+
+    .discipline-button {
+      background-color: #003366;
+      color: white;
+      border: none;
+      padding: 14px 24px;
+      border-radius: 8px;
+      font-size: 17px;
+      cursor: pointer;
+      min-width: 260px;
+      transition: background-color 0.3s ease;
+    }
+
+    .discipline-button:hover {
+      background-color: #005599;
+    }
+
+    footer {
+      font-size: 14px;
+      color: #666;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img id="logo" src="https://www.hebergeur-image.com/upload/113.21.122.137-6881f18b384e5.jpg" alt="Logo Chiens d'Or" />
+    <h1>Classements par discipline</h1>
+    <p class="slogan">Saison 2034-2035 du challenge des Chiens d'Or</p>
+  </header>
+
+  <div class="discipline-container">
+    <button class="discipline-button" onclick="openLink('https://drive.google.com/file/d/1L4aQa7YiXHoenZ7Kzs6zWh43anOAXAHN/view?usp=sharing')">🐕‍🦺 Canicross</button>
+    <button class="discipline-button" onclick="openLink('https://drive.google.com/file/d/1L4aQa7YiXHoenZ7Kzs6zWh43anOAXAHN/view?usp=sharing')">🚴 Canivtt</button>
+    <button class="discipline-button" onclick="openLink('https://drive.google.com/file/d/1L4aQa7YiXHoenZ7Kzs6zWh43anOAXAHN/view?usp=sharing')">🛴 Canitrottinette</button>
+    <button class="discipline-button" onclick="openLink('https://drive.google.com/file/d/1L4aQa7YiXHoenZ7Kzs6zWh43anOAXAHN/view?usp=sharing')">🏞️ Canitrail</button>
+    <button class="discipline-button" onclick="openLink('https://drive.google.com/file/d/1L4aQa7YiXHoenZ7Kzs6zWh43anOAXAHN/view?usp=sharing')">🚶‍♂️ Canimarche / Randonnée</button>
+    <button class="discipline-button" onclick="openLink('https://drive.google.com/file/d/1L4aQa7YiXHoenZ7Kzs6zWh43anOAXAHN/view?usp=sharing')">⛷️ Ski Joëring</button>
+      </div>
+    <!-- 🔙 Bouton retour ajouté -->
+    <div style="margin-top: 30px;">
+    <button class="discipline-button" onclick="openLink('consultation classement chiens dorv.html')">🔙 Retour au menu précédent</button>
+   </div>
+
+  <footer>🛠️ Réalisé par <strong>Robert AURAY</strong> – Version <strong>1.15</strong></footer>
+
+  <script>
+    function openLink(url) {
+      window.open(url, '_blank');
+    }
+  </script>
+
+</body>
+
+</html>
+
